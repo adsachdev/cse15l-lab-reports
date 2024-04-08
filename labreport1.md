@@ -27,8 +27,8 @@ April 2, 2024
 
 1. no arguments 
   - Absolute path to working directory right before command was run: **/Users/adyasachdev/Downloads/lecture1**
-  - ....adyasachdev@Adyas-MacBook-Air lecture1 % ls
-    ....Hello.class     Hello.java      README          messages
+  - ```adyasachdev@Adyas-MacBook-Air lecture1 % ls
+    Hello.class  Hello.java  README  messages```
   - Listed the contents in current directory, lecture1
 
 2. path to a directory as an argument
