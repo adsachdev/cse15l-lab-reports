@@ -33,8 +33,8 @@ April 2, 2024
 
 2. path to a directory as an argument
   - Absolute path to working directory right before command was run: **/Users/adyasachdev/Downloads**
-  - ```adyasachdev@Adyas-MacBook-Air Downloads % ls lecture1
-Hello.class     Hello.java      README          messages```
+  - ```adyasachdev@Adyas-MacBook-Air Downloads % ls lecture1```
+```Hello.class     Hello.java      README          messages```
   - Since we are in Downloads and run the command `ls lecture1` it again lists the contents in the lecture1 directory
 
 3. path to a file as an argument
