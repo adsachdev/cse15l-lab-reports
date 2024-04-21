@@ -8,7 +8,7 @@ April 2, 2024
 1. no arguments 
   - Absolute path to working directory right before command was run: `/Users/adyasachdev/Downloads/lecture1`
   - ```adyasachdev@Adyas-MacBook-Air lecture1 % cd```
-  - No output and _no error_ is seen. We have been exited out of the current working directory and `pwd` command now only shows `/Users/adyasachdev`
+  - No output and _no error_ is seen. We have been exited out of the current working directory and `pwd` command now only shows ```/Users/adyasachdev```
 
 2. path to a directory as an argument
   - Absolute path to working directory right before command was run: `/Users/adyasachdev`
