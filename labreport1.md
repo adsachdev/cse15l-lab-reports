@@ -6,7 +6,7 @@ April 2, 2024
 - No output if it works
 
 1. no arguments 
-  - Absolute path to working directory right before command was run: **/Users/adyasachdev/Downloads/lecture1**
+  - Absolute path to working directory right before command was run: `/Users/adyasachdev/Downloads/lecture1`
   - ```adyasachdev@Adyas-MacBook-Air lecture1 % cd```
   - No output. We have been exited out of the current working directory and `pwd` command now only shows ```/Users/adyasachdev```
 
