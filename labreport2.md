@@ -7,12 +7,13 @@ April 22, 2024
   ![code](./labreport_2_code.png)
 
 * Screenshots using `/add-message`:
-  1. ![webpage1](./labreport_2_ex1.png)
+
+  * ![webpage1](./labreport_2_ex1.png)
     1. The `handleRequest` method was called to check the url and print the message onto the webpage. 
     2. The argument to the method was a url. An important class field is one called `output` which currently stores an empty string.
     3. The `output` value was changed from an empty string `""` to the first message of type `user : message`.
-       
-  2. ![webpage2](./labreport_2_ex2.png)
+
+  * ![webpage2](./labreport_2_ex2.png)
     1. The `handleRequest` method was called to check the url and print the message onto the webpage. 
     2. The argument to the method was a url. An important class field is `output` which currently stores the first message that was printed. 
     3. The `output` value was changed from the first message of type `user : message` to now print two messages of the type `user : message`.
