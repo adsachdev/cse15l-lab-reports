@@ -22,10 +22,10 @@ May 5, 2024
 ```
 
 3. Symptoms:
-- Failed test:
+  - Failed test:
   ![failed_test](./labreport_3_testFail.png)
 
-- Passed test:
+  - Passed test:
   ![passed_test](./labreport_3_testPass.png)
 
 4. Code change:
@@ -39,8 +39,8 @@ May 5, 2024
         return arr;
      }  
     ```
-    
-  - Code after (fixed):
+
+    - Code after (fixed):
     ```
     static int[] reversed(int[] arr) {
       int[] newArray = new int[arr.length];
@@ -53,7 +53,9 @@ May 5, 2024
 
 5. To fix the code, we first need to assign elements of `arr` to `newArray` and not the other way around. Secondly, we return the `newArray` and not `arr`.
 
+
 --- 
+
 
 ## Part 2 - Researching Commands
 
@@ -90,7 +92,8 @@ May 5, 2024
     ./technical/biomed/1472-6793-2-4.txt:            with tricaine methane sulfonate (MS-222, Sigma Chemical
     ./technical/biomed/1472-6890-1-4.txt:          aminomethane (Tris), pH 7.8] for 1 minute, preincubated
     ./technical/biomed/gb-2001-2-3-research0007.txt:          alkylating agents such as methylmethanesulfonate (MMS)
-    ```
+   ```
+   
   - Source: [Red Switches article](https://www.redswitches.com/blog/grep-command-in-linux/)
 
 2. `grep -i <<string>> <<filename>>`
@@ -101,12 +104,14 @@ May 5, 2024
      adyasachdev@Adyas-MacBook-Air docsearch % grep -i "drosophilidae" ./technical/biomed/*.txt
     ./technical/biomed/1471-2148-1-6.txt:        Species in the family Drosophilidae have been premier
      ```
+     
     - Eg2:
       ```
-      adyasachdev@Adyas-MacBook-Air docsearch % grep -i "julie" ./technical/911report/*.txt  
+     adyasachdev@Adyas-MacBook-Air docsearch % grep -i "julie" ./technical/911report/*.txt  
       ./technical/911report/chapter-1.txt:    At 8:59, Flight 175 passenger Brian David Sweeney tried to call his wife, Julie. He left a message on their home answering machine that the plane had been hijacked. He then called his mother, Louise Sweeney, told her the flight had been hijacked, and added that the passengers were thinking about storming the cockpit to take control of the plane away from the hijackers.
       ./technical/911report/chapter-13.2.txt:            48. See FBI reports of investigation, interview of Julie Sweeney, Oct. 2, 2001;
-      ```
+   ```
+      
   - Source: [Linux Handbook publication](https://linuxhandbook.com/grep-command-examples/)
 
     
@@ -142,6 +147,7 @@ May 5, 2024
     ./technical/911report/chapter-9.txt
     ./technical/911report/preface.txt
     ```
+    
     - Source: `man grep` on terminal
 
 4. `grep -w <<string>> <<filename>>`
@@ -158,7 +164,8 @@ May 5, 2024
     ```
     adyasachdev@Adyas-MacBook-Air docsearch % grep -w "merit" ./technical/911report/chapter-13*.txt
   ./technical/911report/chapter-13.1.txt:                defense, or both opposed them; and because some proposals lacked merit. We have
-    ```
+  ```
+
   - Source: [zwischenzugs blog post](https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/)
 
 
