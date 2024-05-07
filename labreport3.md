@@ -24,7 +24,6 @@ May 5, 2024
 3. Symptoms:
   - Failed test:
   ![failed_test](./labreport_3_testFail.png)
-
   - Passed test:
   ![passed_test](./labreport_3_testPass.png)
 
@@ -93,8 +92,8 @@ May 5, 2024
     ./technical/biomed/1472-6890-1-4.txt:          aminomethane (Tris), pH 7.8] for 1 minute, preincubated
     ./technical/biomed/gb-2001-2-3-research0007.txt:          alkylating agents such as methylmethanesulfonate (MMS)
    ```
-   
-  - Source: [Red Switches article](https://www.redswitches.com/blog/grep-command-in-linux/)
+
+   - Source: [Red Switches article](https://www.redswitches.com/blog/grep-command-in-linux/)
 
 2. `grep -i <<string>> <<filename>>`
    - __Action:__ case insensitive search and print of string instances within the files
@@ -111,8 +110,8 @@ May 5, 2024
       ./technical/911report/chapter-1.txt:    At 8:59, Flight 175 passenger Brian David Sweeney tried to call his wife, Julie. He left a message on their home answering machine that the plane had been hijacked. He then called his mother, Louise Sweeney, told her the flight had been hijacked, and added that the passengers were thinking about storming the cockpit to take control of the plane away from the hijackers.
       ./technical/911report/chapter-13.2.txt:            48. See FBI reports of investigation, interview of Julie Sweeney, Oct. 2, 2001;
    ```
-      
-  - Source: [Linux Handbook publication](https://linuxhandbook.com/grep-command-examples/)
+
+   - Source: [Linux Handbook publication](https://linuxhandbook.com/grep-command-examples/)
 
     
 3. `grep -L <<string>> <<filename>>`
@@ -147,8 +146,8 @@ May 5, 2024
     ./technical/911report/chapter-9.txt
     ./technical/911report/preface.txt
     ```
-    
-    - Source: `man grep` on terminal
+
+  - Source: `man grep` on terminal
 
 4. `grep -w <<string>> <<filename>>`
    - __Action:__ only returns/prints whole word matches, and not if the desired string is part of a larger word
