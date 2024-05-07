@@ -137,7 +137,7 @@ May 5, 2024
     ./technical/911report/preface.txt
    ```
    
-  - Eg2:
+   - Eg2:
     ```
     adyasachdev@Adyas-MacBook-Air docsearch % grep -L "Asia" ./technical/911report/*.txt
     ./technical/911report/chapter-1.txt
@@ -161,7 +161,7 @@ May 5, 2024
   ./technical/biomed/1472-6793-2-4.txt:            with tricaine methane sulfonate (MS-222, Sigma Chemical
     ```
     
-  - Eg2:
+    - Eg2:
     ```
     adyasachdev@Adyas-MacBook-Air docsearch % grep -w "merit" ./technical/911report/chapter-13*.txt
   ./technical/911report/chapter-13.1.txt:                defense, or both opposed them; and because some proposals lacked merit. We have
