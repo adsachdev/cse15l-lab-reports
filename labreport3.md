@@ -147,7 +147,7 @@ May 5, 2024
     ./technical/911report/preface.txt
     ```
 
-  - Source: `man grep` on terminal
+      - Source: `man grep` on terminal
 
 4. `grep -w <<string>> <<filename>>`
    - __Action:__ only returns/prints whole word matches, and not if the desired string is part of a larger word
