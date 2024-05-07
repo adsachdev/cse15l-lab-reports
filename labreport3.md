@@ -146,8 +146,7 @@ May 5, 2024
     ./technical/911report/chapter-9.txt
     ./technical/911report/preface.txt
     ```
-
-      - Source: `man grep` on terminal
+  - Source: `man grep` on terminal
 
 4. `grep -w <<string>> <<filename>>`
    - __Action:__ only returns/prints whole word matches, and not if the desired string is part of a larger word
@@ -164,7 +163,6 @@ May 5, 2024
     adyasachdev@Adyas-MacBook-Air docsearch % grep -w "merit" ./technical/911report/chapter-13*.txt
   ./technical/911report/chapter-13.1.txt:                defense, or both opposed them; and because some proposals lacked merit. We have
   ```
-
   - Source: [zwischenzugs blog post](https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/)
 
 
