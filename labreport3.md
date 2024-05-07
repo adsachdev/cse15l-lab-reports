@@ -42,12 +42,12 @@ May 5, 2024
     - Code after (fixed):
     ```
     static int[] reversed(int[] arr) {
-      int[] newArray = new int[arr.length];
-      for(int i = 0; i < arr.length; i += 1) {
-        newArray[i] = arr[arr.length - i - 1];
-      }
-      return newArray;
-    }
+     int[] newArray = new int[arr.length];
+     for(int i = 0; i < arr.length; i += 1) {
+       newArray[i] = arr[arr.length - i - 1];
+     }
+     return newArray;
+   }
     ```
 
 5. To fix the code, we first need to assign elements of `arr` to `newArray` and not the other way around. Secondly, we return the `newArray` and not `arr`.
@@ -66,7 +66,7 @@ May 5, 2024
    - Eg1:
      ```
      adyasachdev@Adyas-MacBook-Air docsearch % grep --color "Drosophilidae" ./technical/biomed/*.txt
-     ./technical/biomed/1471-2148-1-6.txt:        Species in the family __Drosophilidae__ have been premier
+     ./technical/biomed/1471-2148-1-6.txt:        Species in the family Drosophilidae have been premier
      ```
    - Eg2:
      ```
