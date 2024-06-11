@@ -19,9 +19,6 @@ June 10, 2024
   
 - `ListExamples.java` content:
 ```
-/**
- * Copied from list-examples-grader from cse15L spring'24
- */
 import java.util.ArrayList;
 import java.util.List;
 
@@ -106,7 +103,7 @@ else
     exit
 fi
 
-java -cp $CPATH org.junit.runner.JUnitCore $0
+java -cp $CPATH org.junit.runner.JUnitCore $1
 ```
 
 - Command line to trigger bug : `adyasachdev@Adyas-MacBook-Air labreport_5 % bash test.sh TestListExamples`
@@ -115,4 +112,4 @@ java -cp $CPATH org.junit.runner.JUnitCore $0
 
 
 ## Part 2 – Reflection
-I enjoyed learning about bash scripts and how to use them in lecture and lab. It was very intereseting to see the amount of commands you could carry out by writing them in the bash script i
+I enjoyed learning about bash scripts and how to use them in lecture and lab. It was very intereseting to see the amount of commands you could carry out by writing them in the bash script direclty and running them altogether. 
