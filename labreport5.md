@@ -1,24 +1,25 @@
-## Lab Report - 5
+# Lab Report - 5
 June 10, 2024
 
-# Part 1 – Debugging Scenario
+## Part 1 – Debugging Scenario
 
 1. **Original Student Post**
    I have a `ListExamples.java` file with a merge funciton and `TestListExamples.java` file to test the merge function. However, when I try to run the bash file which compiles both files and runs the junit tests, it tells me it couldn't find `test.sh` and fails my tests, even though they seem to work when I run them directly on VSCode.
-![Image]()
+![Image](/labreport_5_problem.png)
 
 2. **TA Response**
    Good idea on trying to run the tests directly on VSCode! This means your code is probably correct in the `.java` files. Try checking your `test.sh` file again and make sure you are using the correct arguments with it in the command line.
 
 3. **Final Student Post**
    I realized I was using the wrong variable in the last line of `test.sh`. `$0` actually gives the name of the file, the correct first argument should actually be `$1`. Thank you so much!
-  ![Image]()
+  ![Image](/labreport_5_solution.png)
 
 4. **All Information:**
-  - Three files created called `ListExamples.java`, `TestListExamples.java`, and `test.sh`.
-  - `ListExamples.java` content:
-    ```
-    /**
+- Three files created called `ListExamples.java`, `TestListExamples.java`, and `test.sh`.
+  
+- `ListExamples.java` content:
+```
+/**
  * Copied from list-examples-grader from cse15L spring'24
  */
 import java.util.ArrayList;
@@ -52,10 +53,11 @@ class ListExamples {
     return result;
   }
 }
-    ```
-  - `TestListExamples.java` content:
-    ```
-    import static org.junit.Assert.*;
+```
+
+- `TestListExamples.java` content:
+```
+import static org.junit.Assert.*;
 import org.junit.*;
 
 import java.util.ArrayList;
@@ -88,11 +90,11 @@ public class TestListExamples {
   }
 
 }
-    ```
-    
-  - `test.sh` content:
-    ```
-    CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+```
+
+- `test.sh` content:
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 javac -cp $CPATH ListExamples.java TestListExamples.java 
 
@@ -105,11 +107,12 @@ else
 fi
 
 java -cp $CPATH org.junit.runner.JUnitCore $0
-    ```
+```
 
-  - Command line to trigger bug : `adyasachdev@Adyas-MacBook-Air labreport_5 % bash test.sh TestListExamples`
-  - To fix bug : edited line 13 of `test.sh` file to take the first arguement from the command line i.e from `$0` to `$1`. 
+- Command line to trigger bug : `adyasachdev@Adyas-MacBook-Air labreport_5 % bash test.sh TestListExamples`
+
+- To fix bug : edited line 13 of `test.sh` file to take the first arguement from the command line i.e from `$0` to `$1`. 
 
 
-# Part 2 – Reflection
+## Part 2 – Reflection
 I enjoyed learning about bash scripts and how to use them in lecture and lab. It was very intereseting to see the amount of commands you could carry out by writing them in the bash script i
