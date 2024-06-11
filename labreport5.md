@@ -3,18 +3,18 @@ June 10, 2024
 
 ## Part 1 – Debugging Scenario
 
-1. **Original Student Post**
+1. **Original Student Post :**
    I have a `ListExamples.java` file with a merge funciton and `TestListExamples.java` file to test the merge function. However, when I try to run the bash file which compiles both files and runs the junit tests, it tells me it couldn't find `test.sh` and fails my tests, even though they seem to work when I run them directly on VSCode.
 ![Image](/labreport_5_problem.png)
 
-2. **TA Response**
+2. **TA Response :**
    Good idea on trying to run the tests directly on VSCode! This means your code is probably correct in the `.java` files. Try checking your `test.sh` file again and make sure you are using the correct arguments with it in the command line.
 
-3. **Final Student Post**
+3. **Final Student Post :**
    I realized I was using the wrong variable in the last line of `test.sh`. `$0` actually gives the name of the file, the correct first argument should actually be `$1`. Thank you so much!
   ![Image](/labreport_5_solution.png)
 
-4. **All Information:**
+4. **All Information :**
 - Three files created called `ListExamples.java`, `TestListExamples.java`, and `test.sh`.
   
 - `ListExamples.java` content:
