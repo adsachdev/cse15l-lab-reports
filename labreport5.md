@@ -15,9 +15,11 @@ June 10, 2024
   ![Image](/labreport_5_solution.png)
 
 4. **All Information :**
+
 - Three files created called `ListExamples.java`, `TestListExamples.java`, and `test.sh`.
   
 - `ListExamples.java` content:
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +55,7 @@ class ListExamples {
 ```
 
 - `TestListExamples.java` content:
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -90,6 +93,7 @@ public class TestListExamples {
 ```
 
 - `test.sh` content:
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
